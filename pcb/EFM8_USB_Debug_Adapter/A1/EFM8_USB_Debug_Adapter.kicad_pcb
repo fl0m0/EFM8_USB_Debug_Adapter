@@ -39,7 +39,7 @@
 
   (setup
     (pad_to_mask_clearance 0)
-    (grid_origin 96 76)
+    (grid_origin 123.5 53.5)
     (pcbplotparams
       (layerselection 0x00010fc_ffffffff)
       (disableapertmacros false)
@@ -117,7 +117,7 @@
 
   (footprint "Connector_User:IDC-Header_2x03_P2.54mm_Horizontal_61200621721" (layer "F.Cu")
     (tedit 63582B0C) (tstamp 105ec9f9-b3cb-4791-8471-0b07955c75c3)
-    (at 134.2 59.26)
+    (at 138.2 59.26)
     (descr "Through hole IDC box header, 2x03, 2.54mm pitch, double rows, Wurth Electronics")
     (tags "Through hole horizontal IDC box header THT 2x03 2.54mm double row")
     (property "MPN" "61200621721")
@@ -190,7 +190,7 @@
 
   (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 19cbda20-8968-4c35-923e-40ce69eb2c34)
-    (at 107.6 47.6)
+    (at 107.6 46.4)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "Package" "0603")
@@ -236,7 +236,7 @@
 
   (footprint "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEF1) (tstamp 1b255b53-1881-42cd-8622-de8e61f5e2f3)
-    (at 112.2 34.8 90)
+    (at 116.2 34.8 90)
     (descr "LED SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags "LED handsolder")
     (property "Info" "Red")
@@ -284,7 +284,7 @@
 
   (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 1f95d381-dc10-44f9-8397-18271df5243c)
-    (at 111 40.6 -90)
+    (at 111 39.4 -90)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "Package" "0603")
@@ -330,7 +330,7 @@
 
   (footprint "Package_TO_SOT_SMD_User:SOT-23-6_Handsoldering" (layer "F.Cu")
     (tedit 631A1AAB) (tstamp 25fd21db-a0f4-43ba-8b07-8a3c9792cae7)
-    (at 122.8 46.8 180)
+    (at 126.8 46.8 180)
     (descr "6-pin SOT-23 package, Handsoldering")
     (tags "SOT-23-6 Handsoldering")
     (property "MPN" "DMMT5401-7-F")
@@ -386,7 +386,7 @@
 
   (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 35b3597c-2d28-4bd3-85da-b865dd024ec7)
-    (at 126.6 46.8 -90)
+    (at 130.6 46.8 -90)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "Package" "0603")
@@ -432,7 +432,7 @@
 
   (footprint "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEF1) (tstamp 3746518e-ec8f-4326-9e80-93b618a3f818)
-    (at 98.8 46.8)
+    (at 98.8 46)
     (descr "LED SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags "LED handsolder")
     (property "Info" "Red")
@@ -628,7 +628,7 @@
 
   (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 3f838379-a74d-4365-b991-05308006c86b)
-    (at 129 46.8 -90)
+    (at 133 46.8 -90)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "Package" "0603")
@@ -838,7 +838,7 @@
 
   (footprint "Connector_User:USB_C_Receptacle_Molex_2137160001" (layer "F.Cu")
     (tedit 635826FF) (tstamp 5063784a-a30b-4e5c-9433-b853536606df)
-    (at 103.6 37.425 -90)
+    (at 103.6 36.625 -90)
     (descr "USB 2.0 Type C Receptacle")
     (tags "USB Type-C Receptacle Through-hole Right angle")
     (property "Manufacturer" "Molex")
@@ -1039,7 +1039,7 @@
 
   (footprint "Connector_User:IDC-Header_2x05_P2.54mm_Horizontal_61201021721" (layer "F.Cu")
     (tedit 63582B2C) (tstamp 72c5451d-2460-4c6b-ae1c-2f630b54ad9b)
-    (at 108.8 67.4 180)
+    (at 108.8 67 180)
     (descr "Through hole IDC box header, 2x05, 2.54mm pitch, DIN 41651 / IEC 60603-13, double rows, Wurth Electronics")
     (tags "Through hole horizontal IDC box header THT 2x05 2.54mm double row")
     (property "MPN" "61201021721")
@@ -1127,7 +1127,7 @@
 
   (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 7e16e382-e5f2-42f1-85f5-065b6d074030)
-    (at 107.8 39)
+    (at 107.8 37.8)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "Package" "0603")
@@ -1173,7 +1173,7 @@
 
   (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 830cf950-3f80-4c06-90c4-af7d168fb81a)
-    (at 107.6 49.8)
+    (at 107.6 49.4)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "Package" "0603")
@@ -1219,7 +1219,7 @@
 
   (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 846eca2c-1d90-4c4f-a4ed-372bde2715c4)
-    (at 107.8 41.8)
+    (at 107.8 40.6)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "Package" "0603")
@@ -1265,7 +1265,7 @@
 
   (footprint "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Horizontal" (layer "F.Cu")
     (tedit 59FED5CB) (tstamp 91693c2d-393b-42f7-a860-3895f87b3638)
-    (at 137.4 35.58)
+    (at 141.4 35.58)
     (descr "Through hole angled pin header, 1x06, 2.54mm pitch, 6mm pin length, single row")
     (tags "Through hole angled pin header THT 1x06 2.54mm single row")
     (property "MPN" "61300611021")
@@ -1458,7 +1458,7 @@
 
   (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp a97fb80a-2549-42f2-9959-6c752b314245)
-    (at 118.6 46.8 -90)
+    (at 122.6 46.8 -90)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "Package" "0603")
@@ -1550,7 +1550,7 @@
 
   (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp b3b96f66-7184-4c38-b234-d8f0b188b11b)
-    (at 106.8 34.8 -90)
+    (at 106.8 33.6 -90)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "Package" "0603")
@@ -1596,7 +1596,7 @@
 
   (footprint "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEF1) (tstamp bad8d615-9360-4607-80c0-4f2ba170dbe9)
-    (at 98.8 50.4)
+    (at 98.8 50)
     (descr "LED SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags "LED handsolder")
     (property "Info" "Blue")
@@ -1644,7 +1644,7 @@
 
   (footprint "Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_2-G-5,08_1x02_P5.08mm_Horizontal" (layer "F.Cu")
     (tedit 5B785047) (tstamp c31926da-d358-4bed-8f8a-f78722a1ad4a)
-    (at 122.54 41.3775 180)
+    (at 126.54 41.3775 180)
     (descr "Generic Phoenix Contact connector footprint for: MSTBA_2,5/2-G-5,08; number of pins: 02; pin pitch: 5.08mm; Angled || order number: 1757242 12A || order number: 1923869 16A (HC)")
     (tags "phoenix_contact connector MSTBA_01x02_G_5.08mm")
     (property "MPN" "31230102")
@@ -1711,7 +1711,7 @@
 
   (footprint "Fuse:Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEF1) (tstamp cfac8b7e-1e41-47ee-8f09-44d931e7ee9a)
-    (at 108.4 44.8)
+    (at 108.4 43.6)
     (descr "Fuse SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "fuse handsolder")
     (property "Info" "1.1 A, 8V")
@@ -1803,7 +1803,7 @@
 
   (footprint "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEF1) (tstamp e47d44ad-fcfb-4d88-8a02-69420c2ec781)
-    (at 98.8 34 180)
+    (at 98.8 33.2 180)
     (descr "LED SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags "LED handsolder")
     (property "Info" "Red")
@@ -1851,7 +1851,7 @@
 
   (footprint "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEF1) (tstamp eaab36ca-4467-4ae9-a8e6-b2a1016079ea)
-    (at 127.8 34.8 90)
+    (at 131.8 34.8 90)
     (descr "LED SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags "LED handsolder")
     (property "Info" "Red")
@@ -1899,7 +1899,7 @@
 
   (footprint "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEF1) (tstamp f69175df-74cb-43ba-83f8-64eebf1802bd)
-    (at 98.8 74.2)
+    (at 98.8 73.8)
     (descr "LED SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags "LED handsolder")
     (property "Info" "Blue")
@@ -1912,20 +1912,20 @@
     (attr smd)
     (fp_text reference "D131" (at 0 -1.65) (layer "F.SilkS")
       (effects (font (size 1 1) (thickness 0.15)))
-      (tstamp 0b16503a-4feb-4e18-bd0a-8dd91a4e6919)
+      (tstamp 8765371a-21c2-4fe3-a3af-88f5eb1f02a0)
     )
     (fp_text value "150080BS75000" (at 0 1.65) (layer "F.Fab")
       (effects (font (size 1 1) (thickness 0.15)))
-      (tstamp fe98897e-19da-4293-b75e-59fc03fd1c77)
+      (tstamp ed952427-2217-4500-9bbc-0c2746b198ad)
     )
     (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab")
       (effects (font (size 0.5 0.5) (thickness 0.08)))
-      (tstamp bfeadbcb-526c-43a6-b7fe-4e2f50efd84c)
+      (tstamp 4f4bd227-fa4c-47f4-ad05-ee16ad4c58c2)
     )
     (fp_line (start 1 -0.96) (end -1.86 -0.96) (layer "F.SilkS") (width 0.12) (tstamp 5f8f5622-0fae-4eeb-bf3b-6112a55f318d))
     (fp_line (start -1.86 0.96) (end 1 0.96) (layer "F.SilkS") (width 0.12) (tstamp 97087cbe-2d6b-4de6-8a95-e0f165d3bad4))
     (fp_line (start -1.86 -0.96) (end -1.86 0.96) (layer "F.SilkS") (width 0.12) (tstamp ac2dd344-9bcd-43ef-97cf-410a56901723))
-    (fp_line (start 1.85 0.95) (end -1.85 0.95) (layer "F.CrtYd") (width 0.05) (tstamp 20610dee-24a2-4a35-9d47-947d8d2d938e))
+    (fp_line (start 1.85 0.95) (end -1.85 0.95) (layer "F.CrtYd") (width 0.05) (tstamp 122b5574-57fe-4d2d-80bf-3cabd28e7128))
     (fp_line (start 1.85 -0.95) (end 1.85 0.95) (layer "F.CrtYd") (width 0.05) (tstamp 6a92e431-970e-4e94-9939-6a30a7a953f8))
     (fp_line (start -1.85 -0.95) (end 1.85 -0.95) (layer "F.CrtYd") (width 0.05) (tstamp 81cea36f-374e-495b-8b76-6e2c7f3900a5))
     (fp_line (start -1.85 0.95) (end -1.85 -0.95) (layer "F.CrtYd") (width 0.05) (tstamp 8915ab38-0590-446e-aaa6-be99167d8873))
@@ -1945,13 +1945,15 @@
     )
   )
 
-  (gr_line (start 95.2 31.2) (end 147.8 31.2) (layer "Dwgs.User") (width 0.15) (tstamp 28b98695-9210-4116-a5d2-ea2c22479668))
-  (gr_line (start 147.8 76.8) (end 95.2 76.8) (layer "Dwgs.User") (width 0.15) (tstamp 5a96d3c7-0cc7-43b2-9a23-69a2339bc578))
-  (gr_line (start 147.8 31.2) (end 147.8 76.8) (layer "Dwgs.User") (width 0.15) (tstamp 619f91f7-86d2-4e7d-9107-2f9bad1d7630))
-  (gr_line (start 95.2 31.2) (end 95.2 76.8) (layer "Dwgs.User") (width 0.15) (tstamp 9d406242-fe69-4fc0-9c81-6114233d2b27))
-  (gr_line (start 96 76) (end 96 32) (layer "Edge.Cuts") (width 0.1) (tstamp 61838b6d-0365-4ff9-894e-279975dab243))
-  (gr_line (start 147 32) (end 147 76) (layer "Edge.Cuts") (width 0.1) (tstamp 98f253d8-0dda-43a9-bfb3-a1a6b1435866))
-  (gr_line (start 96 32) (end 147 32) (layer "Edge.Cuts") (width 0.1) (tstamp c25ea6fb-4ae0-4701-bdb7-ac4303ac8e22))
-  (gr_line (start 147 76) (end 96 76) (layer "Edge.Cuts") (width 0.1) (tstamp df7e035a-ccbf-488b-ac16-e0f019a68bec))
+  (gr_line (start 95 30) (end 151.8 30) (layer "Dwgs.User") (width 0.15) (tstamp 28b98695-9210-4116-a5d2-ea2c22479668))
+  (gr_line (start 151.8 76.8) (end 95 76.8) (layer "Dwgs.User") (width 0.15) (tstamp 5a96d3c7-0cc7-43b2-9a23-69a2339bc578))
+  (gr_line (start 151.8 30) (end 151.8 76.8) (layer "Dwgs.User") (width 0.15) (tstamp 619f91f7-86d2-4e7d-9107-2f9bad1d7630))
+  (gr_line (start 95 30) (end 95 76.8) (layer "Dwgs.User") (width 0.15) (tstamp 9d406242-fe69-4fc0-9c81-6114233d2b27))
+  (gr_line (start 96 31) (end 151 76) (layer "Dwgs.User") (width 0.15) (tstamp e71c6348-cd9a-46a8-bcb9-837a3d9e70ed))
+  (gr_line (start 151 31) (end 96 76) (layer "Dwgs.User") (width 0.15) (tstamp f4ec3913-74df-4039-a985-f14fe692f8fc))
+  (gr_line (start 96 76) (end 96 31) (layer "Edge.Cuts") (width 0.1) (tstamp 61838b6d-0365-4ff9-894e-279975dab243))
+  (gr_line (start 151 31) (end 151 76) (layer "Edge.Cuts") (width 0.1) (tstamp 98f253d8-0dda-43a9-bfb3-a1a6b1435866))
+  (gr_line (start 96 31) (end 151 31) (layer "Edge.Cuts") (width 0.1) (tstamp c25ea6fb-4ae0-4701-bdb7-ac4303ac8e22))
+  (gr_line (start 151 76) (end 96 76) (layer "Edge.Cuts") (width 0.1) (tstamp df7e035a-ccbf-488b-ac16-e0f019a68bec))
 
 )
