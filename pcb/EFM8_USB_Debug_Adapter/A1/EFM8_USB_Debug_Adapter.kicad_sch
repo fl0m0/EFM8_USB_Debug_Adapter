@@ -4,6 +4,13 @@
 
   (paper "A4")
 
+  (title_block
+    (title "EFM8 USB Debug Adapter")
+    (date "2022-11-08")
+    (rev "A1")
+    (company "flomo")
+  )
+
   (lib_symbols
     (symbol "Connector_Special_Purpose_User:EFM8_IDC_Debug_Header_Horizontal" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
       (property "Reference" "J" (id 0) (at 0 8.89 0)
@@ -1456,7 +1463,7 @@
       (property "SPN" "SI3443CDV-T1-GE3CT-ND" (id 6) (at 15.24 -5.08 0)
         (effects (font (size 1.27 1.27)) (justify left) hide)
       )
-      (property "ki_keywords" "P-Channel MOSFET" (id 7) (at 0 0 0)
+      (property "ki_keywords" "P-Channel MOSFET PMOS P-MOS" (id 7) (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (property "ki_description" "-5.97A Id, -20V Vds, P-Channel MOSFET, SOT-23-6" (id 8) (at 0 0 0)
@@ -1647,6 +1654,7 @@
     )
   )
 
+
   (junction (at 161.29 106.68) (diameter 0) (color 0 0 0 0)
     (uuid 024c4a1e-8da1-4474-ab10-b109554cfab2)
   )
@@ -1727,13 +1735,13 @@
   (no_connect (at 74.93 38.1) (uuid 4f69e349-7e97-4912-b157-d6fa35c0c5af))
   (no_connect (at 74.93 40.64) (uuid 4f69e349-7e97-4912-b157-d6fa35c0c5b0))
   (no_connect (at 74.93 43.18) (uuid 4f69e349-7e97-4912-b157-d6fa35c0c5b1))
+  (no_connect (at 74.93 53.34) (uuid 6ded02b3-1f30-4005-a817-79b36c925805))
+  (no_connect (at 74.93 50.8) (uuid 6ded02b3-1f30-4005-a817-79b36c925805))
   (no_connect (at 66.04 176.53) (uuid 83f7759c-4ad4-45c9-9566-2b8aed210e88))
   (no_connect (at 66.04 173.99) (uuid 83f7759c-4ad4-45c9-9566-2b8aed210e89))
   (no_connect (at 66.04 184.15) (uuid b1e76de0-dae3-4e88-b873-ef0c071f8d96))
-  (no_connect (at 66.04 128.27) (uuid d0d7cfe2-5e98-4400-9033-56853ed45892))
   (no_connect (at 66.04 123.19) (uuid d0d7cfe2-5e98-4400-9033-56853ed45893))
   (no_connect (at 66.04 120.65) (uuid d0d7cfe2-5e98-4400-9033-56853ed45894))
-  (no_connect (at 66.04 110.49) (uuid d0d7cfe2-5e98-4400-9033-56853ed45895))
 
   (wire (pts (xy 198.12 120.65) (xy 213.36 120.65))
     (stroke (width 0) (type default) (color 0 0 0 0))
